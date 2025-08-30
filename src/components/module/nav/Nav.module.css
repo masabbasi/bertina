@@ -3,6 +3,14 @@
   /* margin-top: 10rem; */
 }
 
+.mobileHeader {
+  display: block;
+}
+
+.desktopHeader {
+  display: none;
+}
+
 /* Responsive - Mobile First */
 /* Small Device Size */
 @media screen and (min-width: 450px) {
@@ -18,9 +26,13 @@
 
 /* Laptop Size */
 @media screen and (min-width: 992px) {
-  /* .container {
-    margin: 0 1.9rem;
-  } */
+  .mobileHeader {
+    display: none;
+  }
+
+  .desktopHeader {
+    display: block;
+  }
 }
 
 /* Desktop Size */

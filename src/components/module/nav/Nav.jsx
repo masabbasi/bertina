@@ -5,8 +5,12 @@ import DesktopMenu from "./DesktopMenu";
 function Nav() {
   return (
     <div className={styles.container}>
-      <MobileMenu />
-      {/* <DesktopMenu /> */}
+      <div className={styles.mobileHeader}>
+        <MobileMenu />
+      </div>
+      <div className={styles.desktopHeader}>
+        <DesktopMenu />
+      </div>
     </div>
   );
 }
