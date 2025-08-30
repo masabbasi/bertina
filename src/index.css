@@ -59,9 +59,7 @@ body {
 
 /* Mobile Size */
 @media screen and (min-width: 576px) {
-  .container {
-    margin: 0 2.8rem;
-  }
+
 }
 
 /* Tablet Size */

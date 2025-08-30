@@ -1,4 +1,6 @@
 import { LiaNewspaper } from "react-icons/lia";
+import { LiaComment } from "react-icons/lia";
+import { PiNewspaperLight } from "react-icons/pi";
 
 import Nav from "../module/nav/Nav";
 import styles from "components/layout/Header.module.css";
@@ -7,12 +9,25 @@ function Header() {
   return (
     <div>
       <div className={styles.topItem}>
-				<div className={styles.topItemIcon}>
-
-        <LiaNewspaper />
-				</div>
-        <div className={styles.topItemBullet}></div>
-        <p className={styles.topItemText}>شماره تلفنهای جدید پشتیبانی برتینا: 49135-021 و 49169000-021</p>
+        <div className={styles.topItemRight}>
+          <div className={styles.topItemIcon}>
+            <LiaNewspaper />
+          </div>
+          <div className={styles.topItemBullet}></div>
+          <p className={styles.topItemText}>
+            شماره تلفنهای جدید پشتیبانی برتینا: 49135-021 و 49169000-021
+          </p>
+        </div>
+        <div className={styles.topItemLeft}>
+          <a href="#">
+            <LiaComment />
+            ارسال تیکت
+          </a>
+          <a href="#">
+            <PiNewspaperLight />
+            ارسال تیکت
+          </a>
+        </div>
       </div>
       <Nav />
       <header className={styles.container}>

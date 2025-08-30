@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  /* margin-top: 10rem; */
+}
+
+/* Responsive - Mobile First */
+/* Small Device Size */
+@media screen and (min-width: 450px) {
+}
+
+/* Mobile Size */
+@media screen and (min-width: 576px) {
+}
+
+/* Tablet Size */
+@media screen and (min-width: 768px) {
+}
+
+/* Laptop Size */
+@media screen and (min-width: 992px) {
+  /* .container {
+    margin: 0 1.9rem;
+  } */
+}
+
+/* Desktop Size */
+@media screen and (min-width: 1200px) {
+}
