@@ -1,0 +1,75 @@
+:root {
+  --primary-color: rgb(80 95 170);
+  --secondary-color: rgb(245 139 33);
+  --text-Color: rgb(170 170 170);
+  --main-font: "YekanBakh";
+  --main-fontBold: "YekanBakhBold";
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px; */
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* Start Fonts */
+/* Regular */
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../fonts/YekanBakh-Regular.woff2")
+      format("woff2 supports variations"),
+    url("../fonts/YekanBakh-Regular.woff2") format("woff2-variations");
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "YekanBakhBold";
+  src: url("../fonts/YekanBakh-Bold.woff2") format("woff2 supports variations"),
+    url("../fonts/YekanBakh-Bold.woff2") format("woff2-variations");
+  font-style: normal;
+  font-display: swap;
+}
+/* End Fonts */
+
+/* Start Body & Container */
+body {
+  font-family: var(--main-font);
+}
+
+.container {
+  width: 110rem;
+  padding: 0rem 1.5rem 0rem;
+  margin: 0 auto;
+}
+/* End Body & Container */
+
+/* Responsive - Mobile First */
+/* Small Device Size */
+@media screen and (min-width: 450px) {
+}
+
+/* Mobile Size */
+@media screen and (min-width: 576px) {
+}
+
+/* Tablet Size */
+@media screen and (min-width: 768px) {
+}
+
+/* Laptop Size */
+@media screen and (min-width: 992px) {
+}
+
+/* Desktop Size */
+@media screen and (min-width: 1200px) {
+}
