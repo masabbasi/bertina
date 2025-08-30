@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  height: 6.4rem;
+  padding: 0.8rem 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.hamburgerMenuIcon {
+  width: 3.2rem;
+}
+
+.hamburgerMenuIcon svg {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.logo {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.logo img {
+  /* width: 100%;
+	height: 100%; */
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.buttons button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.buttons button svg {
+  width: 2.6rem;
+  height: 2.6rem;
+  fill: var(--primary-color);
+  stroke: transparent;
+}
