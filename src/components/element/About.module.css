@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+	margin: 3.8rem 0;
+}
+
+.container span {
+  color: white;
+  font-family: var(--main-fontBold);
+  font-size: 2rem;
+}
+
+.container p {
+  color: rgb(255 255 255 / 0.6);
+	font-size: 1.7rem;
+	line-height: 4rem;
+	text-align: justify;
+}

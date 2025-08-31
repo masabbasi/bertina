@@ -1,0 +1,17 @@
+.mobileFooter {
+  display: block;
+}
+
+.desktopFooter {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .mobileFooter {
+    display: none;
+  }
+
+  .desktopFooter {
+    display: block;
+  }
+}

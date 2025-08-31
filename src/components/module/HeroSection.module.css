@@ -1,0 +1,132 @@
+.container {
+  width: 100%;
+}
+
+.headerText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 5rem;
+  color: var(--primary-color);
+  margin-top: 3rem;
+  font-family: var(--main-fontBold);
+}
+
+.subTitle {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  font-family: var(--main-fontBold);
+}
+
+.description {
+  display: none;
+}
+
+.shortText {
+  font-size: 1.8rem;
+  color: var(--text-Color);
+}
+
+.button {
+  display: none;
+}
+
+.headerImage {
+  display: none;
+}
+
+/* Responsive - Mobile First */
+/* Small Device Size */
+@media screen and (min-width: 450px) {
+}
+
+/* Mobile Size */
+@media screen and (min-width: 576px) {
+  .container {
+    margin: 0 2.8rem;
+  }
+}
+
+/* Tablet Size */
+@media screen and (min-width: 768px) {
+}
+
+/* Laptop Size */
+@media screen and (min-width: 992px) {
+  .container {
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    padding: 5.6rem 8rem;
+    margin: 0 1.9rem;
+  }
+
+  .headerText {
+    width: 60%;
+    align-items: flex-start;
+    gap: 0.1rem;
+  }
+
+  .title {
+    margin-top: 0rem;
+    font-size: 6rem;
+  }
+
+  .subTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    display: block;
+    text-align: justify;
+    color: var(--text-Color);
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .shortText {
+    display: none;
+  }
+
+  .button {
+    width: 15rem;
+    display: block;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-family: var(--main-font);
+  }
+
+  .button:hover {
+    background-color: rgb(77, 98, 199);
+    cursor: pointer;
+  }
+
+  .headerImage {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerImage img {
+    width: 100%;
+  }
+}
+
+/* Desktop Size */
+@media screen and (min-width: 1200px) {
+}

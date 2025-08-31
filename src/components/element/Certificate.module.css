@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.container a {
+  width: 8rem;
+  height: 8rem;
+  padding: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.872);
+	border-radius: 0.7rem;
+}
+
+.container a img {
+  width: 100%;
+  height: 100%;
+}
