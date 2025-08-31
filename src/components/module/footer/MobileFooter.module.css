@@ -50,3 +50,31 @@
   font-size: 1.7rem;
   text-align: center;
 }
+
+
+/* Responsive - Mobile First */
+/* Small Device Size */
+@media screen and (min-width: 450px) {
+}
+
+/* Mobile Size */
+@media screen and (min-width: 576px) {
+	.container {
+		padding: 3rem 2.4rem;
+	}
+}
+
+/* Tablet Size */
+@media screen and (min-width: 768px) {
+}
+
+/* Laptop Size */
+@media screen and (min-width: 992px) {
+  .container {
+    padding: 0 9.9rem;
+  }
+}
+
+/* Desktop Size */
+@media screen and (min-width: 1200px) {
+}

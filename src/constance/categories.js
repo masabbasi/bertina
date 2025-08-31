@@ -32,11 +32,7 @@ const footerCategories = [
       "سرور مجازی ایران",
       "سرور مجازی آلمان",
       "سرور مجازی فرانسه",
-    ],
-  },
-  {
-    name: "سرور اختصاصی",
-    subcategories: [
+      "سرور اختصاصی",
       "سرور اختصاصی ایران",
       "سرور اختصاصی آلمان",
       "میزبانی سرور (کولوکیشن)",
@@ -63,7 +59,8 @@ const footerCategories = [
   {
     name: "درباره ما",
     subcategories: [
-      "تماس با ما",
+      "درباره ما",
+			"تماس با ما",
       "وبلاگ برتینا",
       "روش های پرداخت",
       "سوالات متداول FAQ",
@@ -73,4 +70,4 @@ const footerCategories = [
   },
 ];
 
-export {footerCategories};
+export { footerCategories };

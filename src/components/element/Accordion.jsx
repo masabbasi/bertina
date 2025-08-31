@@ -15,7 +15,7 @@ const Accordion = ({ title, items, isOpen, onToggle }) => {
           <ul className={styles.list}>
             {items.map((item, index) => (
               <li key={index} className={styles.listItem}>
-                {item}
+                <a href="#">{item}</a>
               </li>
             ))}
           </ul>
