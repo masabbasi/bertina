@@ -1,5 +1,5 @@
 .container {
-  width: 110rem;
+  width: 100%;
   padding: 0 3.2rem;
   /* margin-top: 10rem; */
 }
@@ -27,4 +27,9 @@
 
 /* Desktop Size */
 @media screen and (min-width: 1200px) {
+  .container {
+    width: 110rem;
+    padding: 0 3.2rem;
+    /* margin-top: 10rem; */
+  }
 }

@@ -6,10 +6,10 @@ function Layout({ children }) {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className={styles.container}>
         {children}
-        <Footer />
       </div>
+			<Footer />
     </>
   );
 }
