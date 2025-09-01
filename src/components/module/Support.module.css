@@ -1,0 +1,148 @@
+.container {
+  width: 100%;
+  padding: 5.6rem 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topText {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.topText h2 {
+  color: #354281;
+  font-size: 2.8rem;
+}
+
+.topText h2 span {
+  color: #19a886;
+}
+
+.topText p {
+  color: rgb(177, 165, 165);
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.topText ul {
+  list-style: none;
+  font-size: 2rem;
+  color: #747474;
+}
+
+.topText ul span {
+  color: #19a886;
+  margin-left: 1rem;
+}
+
+.topText ul li {
+  margin: 2rem 0;
+}
+
+.topImg {
+  width: 100%;
+  text-align: center;
+}
+
+.topImg img {
+  width: 70%;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.bottomCard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.bottomCard h3 {
+  color: #354281;
+  font-size: 1.5rem;
+}
+
+.bottomCard span {
+  color: rgb(194, 184, 184);
+  font-size: 1.5rem;
+}
+
+.bottomCard img {
+  width: 6rem;
+  height: 4rem;
+}
+
+.bottomCard div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+/* Responsive - Mobile First */
+/* Small Device Size */
+@media screen and (min-width: 450px) {
+}
+
+/* Mobile Size */
+@media screen and (min-width: 576px) {
+}
+
+/* Tablet Size */
+@media screen and (min-width: 768px) {
+}
+
+/* Laptop Size */
+@media screen and (min-width: 992px) {
+  /* .container {
+    padding: 3 10rem;
+  } */
+}
+
+/* Desktop Size */
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 3rem 10rem;
+  }
+
+  .top {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+
+  .topText {
+    width: 50%;
+    text-align: right;
+  }
+
+  .topImg {
+    width: 50%;
+    text-align: left;
+  }
+
+  .bottom {
+    flex-direction: row;
+    margin-bottom: 4rem;
+  }
+}
