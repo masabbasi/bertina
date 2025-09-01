@@ -1,5 +1,19 @@
 .container {
   width: 100%;
+	position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10rem;
+  height: 100%;
+  background-image: url("images/bg-circle.webp");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
 
 .headerText {

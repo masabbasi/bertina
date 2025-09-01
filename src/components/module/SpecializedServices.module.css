@@ -58,7 +58,7 @@
   white-space: normal;
   font-size: 1.5rem;
   color: rgb(69, 69, 69);
-	text-align: justify;
+  text-align: justify;
 }
 
 .servicesCard a {
@@ -110,5 +110,10 @@
   .servicesCard a {
     font-size: 1.8rem;
     padding: 1.3rem 2rem;
+  }
+
+  .servicesCard a:hover {
+    background-color: #bfc4ea;
+    cursor: pointer;
   }
 }
