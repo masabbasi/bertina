@@ -105,7 +105,7 @@
     height: 10rem;
   }
 
-	.sliderContainer::before {
+  .sliderContainer::before {
     width: 35rem;
   }
 
@@ -115,11 +115,14 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .container {
+    padding: 0 10rem;
+  }
   .swiper {
     height: 10rem !important;
   }
 
-	.swiper-slide {
+  .swiper-slide {
     height: 10rem !important;
   }
 }
