@@ -1,4 +1,4 @@
-import style from "components/template/HomePage.module.css"
+import styles from "components/template/HomePage.module.css"
 import HeroSection from "../module/HeroSection"
 import Customer from "../module/Customer"
 import CustomersComments from "../module/CustomersComments"
@@ -13,4 +13,5 @@ function HomePage() {
 	)
 }
 
-export default HomePage
+export default HomePage;
+

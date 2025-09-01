@@ -1,0 +1,88 @@
+.slide {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.872);
+  border-radius: 1.5rem;
+  margin: 0 2rem;
+  border: 0.1rem solid rgba(66, 101, 215, 0.083);
+  box-shadow: 0 0 0.3rem rgba(66, 101, 215, 0.218);
+	padding: 3.6rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header img {
+	width: 5.5rem;
+	height: 5.5rem;
+	border-radius: 50%;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+
+}
+
+.name {
+	display: inline-block;
+	font-size: 1.8rem;
+	font-family: var(--main-fontBold);
+	color: var(--primary-color);
+	text-align: right;
+}
+
+.company {
+	display: inline-block;
+	font-size: 1.6rem;
+	color: var(--primary-color);
+	text-align: right;
+}
+
+
+.comment {
+	display: inline-block;
+	font-size: 1.4rem;
+	color: rgb(125, 116, 116);
+	text-align: justify;
+	line-height: 3rem;
+	display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  direction: rtl;
+}
+
+/* Responsive - Mobile First */
+/* Small Device Size */
+@media screen and (min-width: 450px) {
+}
+
+/* Mobile Size */
+@media screen and (min-width: 576px) {
+}
+
+/* Tablet Size */
+@media screen and (min-width: 768px) {
+}
+
+/* Laptop Size */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Desktop Size */
+@media screen and (min-width: 1200px) {
+	.slide {
+		width: 50%;
+		padding: 5.6rem;
+	}
+
+}
+
