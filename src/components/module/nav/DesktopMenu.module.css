@@ -101,3 +101,8 @@
     padding: 0 9.9rem;
   }
 }
+
+/* @media screen and (min-width: 1200px) {
+  .container {
+width: 110rem;  }
+} */

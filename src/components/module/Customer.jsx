@@ -27,7 +27,7 @@ function Customer() {
           breakpoints={{
             576: { slidesPerView: 5 },
             768: { slidesPerView: 6 },
-            1200: { slidesPerView: 7 },
+            1200: { slidesPerView: 8 },
           }}
         >
           {customersLogos.slice(0,9).map((logo, index) => (
@@ -56,7 +56,7 @@ function Customer() {
           breakpoints={{
             576: { slidesPerView: 6 },
             768: { slidesPerView: 7 },
-            1200: { slidesPerView: 8 },
+            1200: { slidesPerView: 9 },
           }}
         >
           {customersLogos.slice(9,19).map((logo, index) => (
@@ -85,7 +85,7 @@ function Customer() {
           breakpoints={{
             576: { slidesPerView: 5 },
             768: { slidesPerView: 6 },
-            1200: { slidesPerView: 7 },
+            1200: { slidesPerView: 8 },
           }}
         >
           {customersLogos.slice(19,28).map((logo, index) => (

@@ -1,58 +1,48 @@
 .container {
   width: 100%;
-	margin: 5rem 0;
+  margin: 5rem 0;
 }
 
 .title {
-	font-family: var(--main-fontBold);
-	color: var(--primary-color);
+  font-family: var(--main-fontBold);
+  color: var(--primary-color);
   font-size: 2.3rem;
-	text-align: center;
-	margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .slider {
-	text-align: center;
+  text-align: center;
 }
 
-
-/* // */
 .sliderContainer {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-	position: relative;
+  position: relative;
 }
 
 .sliderContainer::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
-  right: 0;
-  width: 25rem;
+  right: -0.2rem;
+  width: 10rem;
   height: 100%;
-  background: linear-gradient(
-    to left,
-    #f8f9f9, 
-    transparent
-  );
+  background: linear-gradient(to left, #f8f9f9, transparent);
   z-index: 2;
   pointer-events: none;
 }
 
 .sliderContainer::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
-  left: 0;
-  width: 25rem;
+  left: -0.2rem;
+  width: 10rem;
   height: 100%;
 
-  background: linear-gradient(
-    to right,
-    #f8f9f9, 
-    transparent
-  );
+  background: linear-gradient(to right, #f8f9f9, transparent);
   z-index: 2;
   pointer-events: none;
 }
@@ -63,15 +53,15 @@
 }
 
 .first {
-	width: 90% !important;
+  width: 90% !important;
 }
 
-.middle {
-	/* width: 100%; */
-}
+/* .middle {
+  width: 100%;
+} */
 
 .third {
-	width: 90% !important;
+  width: 90% !important;
 }
 
 .swiperSlide {
@@ -82,8 +72,8 @@
 }
 
 .logo {
-  width: 10rem;
-  height: 10rem;
+  width: 6rem;
+  height: 6rem;
   object-fit: contain;
 }
 
@@ -93,27 +83,43 @@
     height: 120px;
   }
   .logo {
-    width: 80px;
-    height: 80px;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .sliderContainer::before {
+    width: 25rem;
+  }
+
+  .sliderContainer::after {
+    width: 25rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .swiper {
-    height: 140px;
+    height: 20rem;
   }
   .logo {
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
+  }
+
+	.sliderContainer::before {
+    width: 35rem;
+  }
+
+  .sliderContainer::after {
+    width: 35rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .swiper {
-    height: 160px;
+    height: 10rem !important;
   }
-  .logo {
-    width: 120px;
-    height: 120px;
+
+	.swiper-slide {
+    height: 10rem !important;
   }
 }
