@@ -8,11 +8,17 @@ import GoogleAds from "../module/GoogleAds";
 import Migration from "../module/Migration";
 import Features from "../module/Features";
 import Support from "../module/Support";
+import Search from "../module/Search";
+import SpecializedServices from "../module/SpecializedServices";
+import BertinaServices from "../module/BertinaServices";
 
 function HomePage() {
   return (
     <>
       <HeroSection />
+      <Search />
+      <SpecializedServices />
+      <BertinaServices />
       <Support />
       <Features />
       <Migration />
