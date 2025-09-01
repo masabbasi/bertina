@@ -1,0 +1,22 @@
+.container {
+width: 100%;
+margin: 4rem 0;
+}
+
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1rem;
+color: var(--primary-color);
+font-family: var(--main-fontBold);
+}
+
+.header a {
+	text-decoration: none;
+	background-color: #e7e9f2;
+	padding: 0.5rem 1rem;
+	color: var(--primary-color);
+	border-radius: 0.8rem;
+}

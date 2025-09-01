@@ -17,7 +17,7 @@
 
 .title {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #ffffff;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .content.open {
-  max-height: 384px;
+  max-height: 38.4rem;
 }
 
 .list {
@@ -45,7 +45,7 @@
 
 .listItem {
   padding: 8px 0;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .listItem:last-child {
