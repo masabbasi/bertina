@@ -5,7 +5,6 @@ const paths = ["src", "assets", "components"];
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/bertina/",
   plugins: [react()],
   resolve: {
     alias: {
