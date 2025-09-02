@@ -12,7 +12,7 @@ function Features() {
       </div>
       <div className={styles.cards}>
         <div>
-          <img src="../../../public/images/features/datacenter.svg" alt="" />
+          <img src="images/features/datacenter.svg" alt="" />
           <h3>دیتاسنتر اختصاصی</h3>
           <p>
             برتینا مجهز به دیتاسنتر اختصاصی با قوی‌ترین سخت‌افزارها و سیستم‌های
@@ -20,7 +20,7 @@ function Features() {
           </p>
         </div>
         <div>
-          <img src="../../../public/images/features/monitoring.svg" alt="" />
+          <img src="images/features/monitoring.svg" alt="" />
           <h3>مانیتورینگ ۲۴ ساعته</h3>
           <p>
             برتینا مجهز به مانیتورینگ ۲۴ ساعته سرویس‌های هاست، میزبانی ایمیل،
@@ -28,7 +28,7 @@ function Features() {
           </p>
         </div>
         <div>
-          <img src="../../../public/images/features/uptime.svg" alt="" />
+          <img src="images/features/uptime.svg" alt="" />
           <h3>آپتایم ۹۹.۹٪</h3>
           <p>
             با آپتایم ۹۹.۹٪ و دیتاسنتر مجهز برتینا، نگرانی بابت داون شدن سایت
@@ -36,7 +36,7 @@ function Features() {
           </p>
         </div>
         <div>
-          <img src="../../../public/images/features/support24-7.svg" alt="" />
+          <img src="images/features/support24-7.svg" alt="" />
           <h3>پشتیبانی ۲۴/۷</h3>
           <p>
             پشتیبانی بخش فنی به صورت ۲۴ ساعته در ۷ روز هفته از طریق تیکت، چت و

@@ -1,3 +1,5 @@
+import { CiSearch } from "react-icons/ci";
+
 import styles from "components/module/Search.module.css";
 
 function Search() {
@@ -8,7 +10,14 @@ function Search() {
           <p>همه چیز از انتخاب یک دامنه شروع می‌شود!</p>
           <img src="images/search-domain-arrow.webp" alt="" />
         </div>
-        <div className={styles.SearchElement}>Search</div>
+        <div className={styles.SearchElement}>
+					<button>
+            <CiSearch />
+          </button>
+          <input type="text" />
+          <span>.www</span>
+     
+        </div>
         <div className={styles.price}>
           <div className={styles.priceItem}>
             <span>co.ir.</span>

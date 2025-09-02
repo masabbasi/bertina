@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   background-color: #505faa;
-  padding: 3.2rem 0 2rem;
+  padding: 3.2rem 0 2.4rem;
 }
 
 .mainSection {
@@ -137,9 +137,9 @@
 
 .menu div div {
   margin-bottom: 1.5rem;
-	color: var(--primary-color);
-	font-family: var(--main-fontBold);
-	font-size: 1.2rem;
+  color: var(--primary-color);
+  font-family: var(--main-fontBold);
+  font-size: 1.2rem;
 }
 
 .menu ul {
@@ -148,12 +148,12 @@
 
 .menu a {
   text-decoration: none;
-	color: rgba(147, 147, 147, 0.959);
-	font-size: 1.2rem;
+  color: rgba(147, 147, 147, 0.959);
+  font-size: 1.2rem;
 }
 
 .menu li {
-margin:1rem 0;
+  margin: 1rem 0;
 }
 
 .icons {
@@ -184,4 +184,11 @@ margin:1rem 0;
   color: var(--primary-color);
   font-size: 1.7rem;
   text-align: center;
+}
+
+/* Desktop Size */
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 3.2rem 10rem;
+  }
 }

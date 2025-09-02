@@ -111,8 +111,11 @@
 }
 
 /* Desktop Size */
-/* @media screen and (min-width: 1200px) {
-	.container {
-		width: 110rem;
-	}
-} */
+@media screen and (min-width: 1200px) {
+  .topItem {
+    padding: 1.6rem 10rem;
+  }
+  .container {
+    padding: 0 10rem;
+  }
+}

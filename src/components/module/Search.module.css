@@ -4,13 +4,13 @@
 }
 
 .subContainer {
-	width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
   position: relative;
-	user-select: none;
+  user-select: none;
 }
 
 .subContainer::before {
@@ -18,7 +18,7 @@
   position: absolute;
   top: 0;
   right: -0.2rem;
-  width: 20rem;
+  width: 5rem;
   height: 100%;
   background: linear-gradient(to left, #f8f9f9, transparent);
   z-index: 2;
@@ -30,7 +30,7 @@
   position: absolute;
   top: 0;
   left: -0.2rem;
-  width: 20rem;
+  width: 5rem;
   height: 100%;
   background: linear-gradient(to right, #f8f9f9, transparent);
   z-index: 2;
@@ -53,6 +53,100 @@
 }
 
 .SearchElement {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: 0.1rem solid rgba(66, 101, 215, 0.083);
+  box-shadow: 0 0 0.3rem rgba(66, 101, 215, 0.218);
+  position: relative;
+}
+
+.SearchElement::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -6rem;
+  width: 6rem;
+  height: 0.3rem;
+  z-index: 1;
+  pointer-events: none;
+  border: 0.1rem solid rgba(66, 101, 215, 0.083);
+  background-color: rgba(66, 101, 215, 0.218);
+}
+
+.SearchElement::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -6rem;
+  width: 6rem;
+  height: 0.3rem;
+  z-index: 1;
+  pointer-events: none;
+  background-color: rgba(66, 101, 215, 0.218);
+}
+
+.SearchElement button {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: var(--secondary-color);
+  padding: 0.1rem;
+  border-radius: 0.3rem;
+}
+
+.SearchElement button svg {
+	color: white;
+	width: 4rem;
+	height: 4rem;
+}
+
+.SearchElement input {
+  width: 60%;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  background-color: transparent;
+  display: flex;
+  color: #505faa;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.SearchElement input::placeholder {
+  text-align: center;
+}
+
+.SearchElement input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.SearchElement input:-moz-placeholder {
+  text-align: center;
+}
+
+.SearchElement input::-moz-placeholder {
+  text-align: center;
+}
+
+.SearchElement input:-ms-input-placeholder {
+  text-align: center;
+}
+
+.SearchElement span {
+  width: 20%;
+  color: #505faa;
+  font-size: 1rem;
+  padding: 0.5rem;
 }
 
 .price {
@@ -65,6 +159,7 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 
 .price::-webkit-scrollbar {
   display: none;
@@ -142,5 +237,48 @@
 @media screen and (min-width: 1200px) {
   .container {
     padding: 3rem 10rem;
+  }
+
+  .subContainer::before {
+    width: 20rem;
+  }
+
+  .subContainer::after {
+    width: 20rem;
+  }
+
+  .SearchElement {
+    width: 70%;
+    padding: 0.5rem 1rem;
+  }
+  .SearchElement::before {
+    right: -15rem;
+    width: 15rem;
+  }
+
+  .SearchElement::after {
+    left: -15rem;
+    width: 15rem;
+  }
+
+  .SearchElement button {
+    width: 2.8rem;
+    height: 2.8rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+  .SearchElement button {
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .SearchElement input {
+    padding: 1.5rem;
+    flex-grow: 1;
+    font-size: 2rem;
+  }
+
+  .SearchElement span {
+    font-size: 2rem;
   }
 }
