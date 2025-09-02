@@ -11,7 +11,7 @@ function MobileMenu() {
         <TbMenuDeep />
       </div>
       <div className={styles.logo}>
-        <img src="/images/header/logo.png" alt="bertina logo" />
+        <img src="images/header/logo.png" alt="bertina logo" />
       </div>
       <div className={styles.buttons}>
         <button>

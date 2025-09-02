@@ -7,7 +7,7 @@ function DesktopMenu() {
     <div className={styles.container}>
       <div className={styles.navRight}>
         <div className={styles.logo}>
-          <img src="/images/header/logo.png" alt="bertina logo" />
+          <img src="images/header/logo.png" alt="bertina logo" />
         </div>
         <div>هاست</div>
       </div>

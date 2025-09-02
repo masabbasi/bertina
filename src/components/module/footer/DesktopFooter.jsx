@@ -11,7 +11,7 @@ function DesktopFooter() {
     <div className={styles.container}>
       <div className={styles.mainSection}>
         <div className={styles.svg}>
-          <img src="/images/footer/slogan.svg" alt="دعوت برتینا" />
+          <img src="images/footer/slogan.svg" alt="دعوت برتینا" />
           <div className={styles.right}>
             <FooterPath />
           </div>
