@@ -4,7 +4,7 @@
 }
 
 .container h2 {
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
   color: var(--primary-color);
   font-family: var(--main-fontBold);
@@ -33,6 +33,7 @@
   box-shadow: 0 0 0.3rem rgba(66, 101, 215, 0.218);
   padding: 3.6rem;
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   margin: 2rem;
   align-items: center;
@@ -47,6 +48,7 @@
 .servicesCard div {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -73,12 +75,20 @@
 /* Responsive - Mobile First */
 /* Small Device Size */
 @media screen and (min-width: 450px) {
+	.container h2 {
+		font-size: 3rem;
+	}
 }
 
 /* Mobile Size */
 @media screen and (min-width: 576px) {
+
   .servicesCard {
     min-width: 50rem;
+  }
+
+  .servicesCard a {
+    font-size: 2rem;
   }
 }
 
@@ -88,6 +98,20 @@
 
 /* Laptop Size */
 @media screen and (min-width: 992px) {
+	.container h2 {
+		font-size: 4rem;
+	}
+
+  .servicesCard {
+    flex-direction: row;
+  }
+
+  .servicesCard div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
 }
 
 /* Desktop Size */

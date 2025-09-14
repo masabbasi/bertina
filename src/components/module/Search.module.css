@@ -17,7 +17,7 @@
   content: "";
   position: absolute;
   top: 0;
-  right: -0.2rem;
+  right: -2rem;
   width: 5rem;
   height: 100%;
   background: linear-gradient(to left, #f8f9f9, transparent);
@@ -29,7 +29,7 @@
   content: "";
   position: absolute;
   top: 0;
-  left: -0.2rem;
+  left: -2rem;
   width: 5rem;
   height: 100%;
   background: linear-gradient(to right, #f8f9f9, transparent);
@@ -40,20 +40,20 @@
 .title {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 0.5rem;
 }
 
 .title p {
   color: #3b436d;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .title img {
-  width: 6rem;
+  width: 2rem;
 }
 
 .SearchElement {
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,8 +70,8 @@
   content: "";
   position: absolute;
   top: 50%;
-  right: -6rem;
-  width: 6rem;
+  right: -4rem;
+  width: 4rem;
   height: 0.3rem;
   z-index: 1;
   pointer-events: none;
@@ -83,8 +83,8 @@
   content: "";
   position: absolute;
   top: 50%;
-  left: -6rem;
-  width: 6rem;
+  left: -4rem;
+  width: 4rem;
   height: 0.3rem;
   z-index: 1;
   pointer-events: none;
@@ -105,9 +105,9 @@
 }
 
 .SearchElement button svg {
-	color: white;
-	width: 4rem;
-	height: 4rem;
+  color: white;
+  width: 4rem;
+  height: 4rem;
 }
 
 .SearchElement input {
@@ -119,7 +119,7 @@
   display: flex;
   color: #505faa;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .SearchElement input::placeholder {
@@ -160,19 +160,18 @@
   scrollbar-width: none;
 }
 
-
 .price::-webkit-scrollbar {
   display: none;
 }
 
 .priceItem {
-  min-width: 30rem;
+  min-width: 70%;
   background-color: rgba(255, 255, 255, 0.872);
   border-radius: 0.8rem;
   border: 0.1rem solid rgba(66, 101, 215, 0.083);
   box-shadow: 0 0 0.3rem rgba(66, 101, 215, 0.218);
-  padding: 1rem;
-  font-size: 1.8rem;
+  padding: 0.8rem;
+  font-size: 1.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,6 +215,19 @@
 /* Responsive - Mobile First */
 /* Small Device Size */
 @media screen and (min-width: 450px) {
+  .title p {
+    font-size: 1.8rem;
+  }
+
+  .title img {
+    width: 4rem;
+  }
+
+  .priceItem {
+    min-width: 20rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
 }
 
 /* Mobile Size */
@@ -224,13 +236,42 @@
 
 /* Tablet Size */
 @media screen and (min-width: 768px) {
+  .subContainer::before {
+    right: 0rem;
+    width: 10rem;
+  }
+
+  .subContainer::after {
+    left: 0rem;
+    width: 10rem;
+  }
+
+  .SearchElement::before {
+    right: -6rem;
+    width: 6rem;
+  }
+
+  .SearchElement::after {
+    left: -6rem;
+    width: 6rem;
+  }
 }
 
 /* Laptop Size */
 @media screen and (min-width: 992px) {
-  /* .container {
-    padding: 3 10rem;
-  } */
+  .title p {
+    font-size: 3rem;
+  }
+
+  .title img {
+    width: 6rem;
+  }
+
+  .priceItem {
+    min-width: 30rem;
+    padding: 1.2rem;
+    font-size: 2rem;
+  }
 }
 
 /* Desktop Size */
@@ -244,7 +285,7 @@
   }
 
   .subContainer::after {
-    width: 20rem;
+    min-width: 20rem;
   }
 
   .SearchElement {

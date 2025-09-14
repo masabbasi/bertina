@@ -53,6 +53,9 @@
 /* Responsive - Mobile First */
 /* Small Device Size */
 @media screen and (min-width: 450px) {
+  .details h2 {
+    font-size: 3rem;
+  }
 }
 
 /* Mobile Size */
@@ -61,6 +64,9 @@
 
 /* Tablet Size */
 @media screen and (min-width: 768px) {
+  .img {
+    width: 70%;
+  }
 }
 
 /* Laptop Size */
@@ -68,6 +74,9 @@
   /* .container {
     padding: 3 10rem;
   } */
+  .details h2 {
+    font-size: 4rem;
+  }
 }
 
 /* Desktop Size */

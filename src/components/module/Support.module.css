@@ -22,7 +22,7 @@
 
 .topText h2 {
   color: #354281;
-  font-size: 2.8rem;
+  font-size: 2rem;
 }
 
 .topText h2 span {
@@ -37,7 +37,7 @@
 
 .topText ul {
   list-style: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #747474;
 }
 
@@ -70,23 +70,22 @@
 .bottomCard {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
   gap: 2rem;
 }
 
 .bottomCard h3 {
   color: #354281;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .bottomCard span {
   color: rgb(194, 184, 184);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .bottomCard img {
-  width: 6rem;
-  height: 4rem;
+  width: 4rem;
+  height: 2rem;
 }
 
 .bottomCard div {
@@ -102,6 +101,23 @@
 /* Responsive - Mobile First */
 /* Small Device Size */
 @media screen and (min-width: 450px) {
+  .topText h2 {
+    font-size: 3rem;
+  }
+
+  .bottom {
+    align-items: center;
+  }
+
+  .bottomCard img {
+    width: 5rem;
+    height: 3rem;
+  }
+
+  .bottomCard div {
+    width: 20rem;
+    align-items: flex-end;
+  }
 }
 
 /* Mobile Size */
@@ -110,13 +126,33 @@
 
 /* Tablet Size */
 @media screen and (min-width: 768px) {
+  .topText ul {
+    font-size: 2.2rem;
+  }
+
+  .bottomCard div {
+    width: 40rem;
+  }
+
+  .bottomCard img {
+    width: 6rem;
+    height: 4rem;
+  }
+
+  .bottomCard h3 {
+    font-size: 2.2rem;
+  }
+
+  .bottomCard span {
+    font-size: 2.2rem;
+  }
 }
 
 /* Laptop Size */
 @media screen and (min-width: 992px) {
-  /* .container {
-    padding: 3 10rem;
-  } */
+  .topText h2 {
+    font-size: 4rem;
+  }
 }
 
 /* Desktop Size */
@@ -144,5 +180,20 @@
   .bottom {
     flex-direction: row;
     margin-bottom: 4rem;
+  }
+
+  .bottomCard div {
+    align-items: flex-start;
+    width: fit-content;
+  }
+
+  .bottomCard h3 {
+    font-size: 2rem;
+
+  }
+
+  .bottomCard span {
+    font-size: 2rem;
+		
   }
 }

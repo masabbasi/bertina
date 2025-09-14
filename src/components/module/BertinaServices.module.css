@@ -5,7 +5,7 @@
 }
 
 .container h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: var(--main-fontBold);
   color: var(--primary-color);
   text-align: center;
@@ -50,7 +50,7 @@
   left: -2.9rem;
   width: 10rem;
   height: 10rem;
-  background-image: url("assets/images/bertinaServices/suggestion-banner.webp");
+  background-image: url("https://masabbasi.github.io/bertina/images/bertinaServices/suggestion-banner.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -76,6 +76,7 @@
 
 .serviceItem h3 {
   font-size: 3rem;
+	text-align: center;
 }
 
 .serviceItem a {
@@ -96,6 +97,10 @@
 /* Responsive - Mobile First */
 /* Small Device Size */
 @media screen and (min-width: 450px) {
+	
+.container h2 {
+  font-size: 3rem;
+}
 }
 
 /* Mobile Size */
@@ -111,6 +116,9 @@
 
 /* Laptop Size */
 @media screen and (min-width: 992px) {
+	.container h2 {
+		font-size: 4rem;
+	}
 }
 
 /* Desktop Size */

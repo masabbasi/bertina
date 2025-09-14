@@ -6,7 +6,7 @@
   gap: 2rem;
   justify-content: center;
   align-items: center;
-	padding: 0 2.4rem;
+  padding: 0 2.4rem;
 }
 
 .img {
@@ -30,6 +30,21 @@
 
 .slider {
   width: 100%;
+}
+
+/* Responsive - Mobile First */
+/* Small Device Size */
+@media screen and (min-width: 450px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+/* Laptop Size */
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 4rem;
+  }
 }
 
 /* Desktop Size */

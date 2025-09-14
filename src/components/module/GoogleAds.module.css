@@ -7,11 +7,16 @@
   padding: 3rem 3.2rem;
 }
 
+.right {
+  text-align: center;
+}
+
 .right h2 {
   font-size: 2rem;
   color: var(--primary-color);
   font-family: var(--main-fontBold);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .right p {
@@ -43,7 +48,6 @@
 
 .left div {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #f5f6fa;
@@ -58,15 +62,24 @@
 
 .left div h3 {
   font-size: 2rem;
+  text-align: center;
 }
 
 .left div span {
   font-size: 1.6rem;
+  text-align: center;
 }
 
 /* Responsive - Mobile First */
 /* Small Device Size */
 @media screen and (min-width: 450px) {
+  .right h2 {
+    font-size: 3rem;
+  }
+
+  .left div {
+    justify-content: center;
+  }
 }
 
 /* Mobile Size */
@@ -82,6 +95,9 @@
   /* .container {
     padding: 3 10rem;
   } */
+  .right h2 {
+    font-size: 4rem;
+  }
 }
 
 /* Desktop Size */
@@ -119,5 +135,13 @@
 
   .left div {
     align-items: flex-start;
+  }
+
+  .left div h3 {
+    text-align: right;
+  }
+
+  .left div span {
+    text-align: right;
   }
 }

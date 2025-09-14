@@ -1,13 +1,13 @@
 .container {
   width: 100%;
   margin: 5rem 0;
-	padding: 0 2.4;
+  padding: 0 2.4;
 }
 
 .title {
   font-family: var(--main-fontBold);
   color: var(--primary-color);
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -78,7 +78,14 @@
   object-fit: contain;
 }
 
-/* Responsive */
+/* Responsive - Mobile First */
+/* Small Device Size */
+@media screen and (min-width: 450px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
 @media screen and (min-width: 576px) {
   .swiper {
     height: 120px;
@@ -112,6 +119,13 @@
 
   .sliderContainer::after {
     width: 35rem;
+  }
+}
+
+/* Laptop Size */
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 4rem;
   }
 }
 

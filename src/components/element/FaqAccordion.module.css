@@ -6,7 +6,7 @@
   background-color: #f3f3f8;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
-	user-select: none;
+  user-select: none;
 }
 
 .accordion.open {
@@ -64,4 +64,19 @@
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+/* Responsive - Mobile First */
+/* Mobile Size */
+@media screen and (min-width: 576px) {
+  .accordion {
+    padding: 1rem;
+  }
+  .questions {
+    font-size: 1.5rem;
+  }
+
+  .answerContainer {
+    font-size: 1.4rem;
+  }
 }
