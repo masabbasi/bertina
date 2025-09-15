@@ -3,6 +3,17 @@ import styles from "components/module/BertinaServices.module.css";
 function BertinaServices() {
   return (
     <div className={styles.container}>
+			<div className={styles.titleSvg}>
+						<div className={styles.right}>
+							<div></div>
+							<img src="images/curve-mask-left.svg" alt="" />
+						</div>
+						<div className={styles.center}></div>
+						<div className={styles.left}>
+						<img src="images/curve-mask-left.svg" alt="" />
+							<div></div>
+						</div>
+			</div>
       <h2>لیست خدمات برتینا</h2>
       <p>
         انواع خدمات مرتبط با راه‌اندازی کسب‌وکار اینترنتی و پیش‌نیازهای طراحی
