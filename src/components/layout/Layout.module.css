@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   /* padding: 0 3.2rem; */
-	/* margin: 0 auto; */
+  /* margin: 0 auto; */
   /* margin-top: 10rem; */
 }
 
@@ -20,17 +20,12 @@
 
 /* Laptop Size */
 @media screen and (min-width: 992px) {
-  .container {
-    /* margin: 0 1.9rem; */
-    /* padding: 0 10rem; */
-  }
 }
 
 /* Desktop Size */
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .container {
-    /* width: 110rem; */
-    /* padding: 0 10rem; */
-    /* margin-top: 10rem; */
+    width: 1200px;
+    margin: 0 auto;
   }
-}
+} */

@@ -32,7 +32,7 @@
   align-items: center;
 }
 .call:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .call a {
@@ -52,13 +52,13 @@
 
 .call span {
   display: inline-block;
-	font-size: 2rem;
-	height: 2rem;
+  font-size: 2rem;
+  height: 2rem;
   line-height: 2.6rem;
 }
 
 .login {
-	width: 12rem;
+  width: 12rem;
   height: 4rem;
   border: 0.1rem solid var(--primary-color);
   border-radius: 0.8rem;
@@ -67,7 +67,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-	font-family: var(--main-fontBold);
+  font-family: var(--main-fontBold);
 }
 
 .login:hover {
@@ -104,5 +104,7 @@
 
 /* @media screen and (min-width: 1200px) {
   .container {
-width: 110rem;  }
+		width: 1200px;
+    margin: 0 auto;
+  }
 } */

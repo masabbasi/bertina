@@ -1,3 +1,7 @@
+.container {
+	width: 100%;
+}
+
 .topItem {
   width: 100%;
   background-color: #f0f1f5;
@@ -111,11 +115,14 @@
 }
 
 /* Desktop Size */
-@media screen and (min-width: 1200px) {
-  .topItem {
-    padding: 1.6rem 10rem;
+/* @media screen and (min-width: 1200px) {
+	.container {
+    width: 1200px;
+    margin: 0 auto;
   }
-  .container {
-    padding: 0 10rem;
+
+	.topItem {
+    width: 1200px;
+    margin: 0 auto;
   }
-}
+} */

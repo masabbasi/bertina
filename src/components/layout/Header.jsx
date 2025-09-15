@@ -7,7 +7,7 @@ import styles from "components/layout/Header.module.css";
 
 function Header() {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.topItem}>
         <div className={styles.topItemRight}>
           <div className={styles.topItemIcon}>
