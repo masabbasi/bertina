@@ -191,4 +191,8 @@
   .container {
     padding: 3.2rem 10rem;
   }
+
+	.mainSection {
+		margin: 3.2rem 1rem;
+	}
 }

@@ -1,6 +1,7 @@
 import { FiPhoneCall } from "react-icons/fi";
 
 import styles from "components/module/nav/DesktopMenu.module.css";
+import DesktopMenuItems from "./DesktopMenuItems";
 
 function DesktopMenu() {
   return (
@@ -9,7 +10,9 @@ function DesktopMenu() {
         <div className={styles.logo}>
           <img src="images/header/logo.png" alt="bertina logo" />
         </div>
-        <div>هاست</div>
+        <div>
+					<DesktopMenuItems />
+				</div>
       </div>
       <div className={styles.navLeft}>
         <div className={styles.call}>

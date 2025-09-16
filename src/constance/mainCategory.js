@@ -1,4 +1,4 @@
-const footerCategories = [
+const mainCategory = [
   {
     title: "هاست",
     children: [
@@ -41,7 +41,18 @@ const footerCategories = [
   },
   {
     title: "دامنه",
-    children: [],
+    children: {
+      title: "دامنه دلخواه خود را به راحتی ثبت کنید",
+      desc: "دامنه خود را با آسودگی خاطر و به راحتی در برتینا ثبت نمایید. شرکت برتینا با استفاده از اعتبار بین‌المللی خود و همکاری با بهترین و معتبرترین رجیسترارهای خارجی در ارائه خدمات مربوط به ثبت/تمدید/انتقال دامنه‌های بین‌المللی پیشرو می‌باشد. شرکت برتینا امکان ثبت تمامی پسوند‌های رایج و خاص را با بهترین قیمت و پشتیبانی کامل ارائه می‌نماید.",
+      image: "images/category/domain-names.webp",
+      domains: [
+        { domain: "co.ir.", price: "69.000" },
+        { domain: "info.", price: "437.000" },
+        { domain: "ws.", price: "1.165.000" },
+        { domain: "com.", price: "1.266.000" },
+      ],
+      link: ["خرید دامنه", "خرید دامنه com", "خرید دامنه ir", "خرید دامنه ai"],
+    },
   },
   {
     title: "تبلیغات در گوگل",
@@ -120,11 +131,9 @@ const footerCategories = [
   },
   {
     title: "ایمیل سازمانی",
-    children: [],
   },
   {
     title: "خرید SSL",
-    children: [],
   },
   {
     title: "درباره ما",
@@ -177,3 +186,5 @@ const footerCategories = [
     ],
   },
 ];
+
+export { mainCategory };
