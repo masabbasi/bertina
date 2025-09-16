@@ -50,7 +50,7 @@
 
 .cards div p {
   color: rgb(189, 182, 182);
-	text-align: justify;
+  text-align: justify;
 }
 
 /* Responsive - Mobile First */
@@ -79,5 +79,29 @@
     flex-direction: row;
     gap: 8rem;
     padding: 3rem 10rem;
+  }
+
+	.text h2 {
+		color: white;
+		font-size: 3rem;
+	}
+	
+	.text p {
+		color: rgb(176, 171, 171);
+		font-size: 1.8rem;
+	}
+	
+
+  .cards div {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .cards div h3 {
+    font-size: 2rem;
+  }
+
+  .cards div p {
+    font-size: 1.4rem;
   }
 }
