@@ -75,18 +75,13 @@
 /* Responsive - Mobile First */
 /* Small Device Size */
 @media screen and (min-width: 450px) {
-	.container h2 {
-		font-size: 3rem;
-	}
+  .container h2 {
+    font-size: 3rem;
+  }
 }
 
 /* Mobile Size */
 @media screen and (min-width: 576px) {
-
-  .servicesCard {
-    min-width: 50rem;
-  }
-
   .servicesCard a {
     font-size: 2rem;
   }
@@ -94,15 +89,19 @@
 
 /* Tablet Size */
 @media screen and (min-width: 768px) {
+  .servicesCard {
+    min-width: 40rem;
+  }
 }
 
 /* Laptop Size */
 @media screen and (min-width: 992px) {
-	.container h2 {
-		font-size: 4rem;
-	}
+  .container h2 {
+    font-size: 4rem;
+  }
 
   .servicesCard {
+    min-width: 50rem;
     flex-direction: row;
   }
 

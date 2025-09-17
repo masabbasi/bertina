@@ -18,6 +18,8 @@
   position: relative;
   gap: 0.5rem;
   cursor: pointer;
+  text-decoration: none;
+  color: #3c3a3a;
 }
 
 .itemTitle::after {
@@ -231,7 +233,7 @@
 
 .search span {
   color: #5c78ca !important;
-	font-family: var(--main-fontBold);
+  font-family: var(--main-fontBold);
 }
 
 .domainsItem {

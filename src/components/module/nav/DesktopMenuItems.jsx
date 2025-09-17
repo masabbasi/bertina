@@ -30,8 +30,8 @@ function DesktopMenuItems() {
                           {item.children.desc}
                         </p>
                         <ul>
-                          {item.children.link.map((linkItem) => (
-                            <li>{linkItem.title}</li>
+                          {item.children.link.map((linkItem, index) => (
+                            <li key={index}>{linkItem.title}</li>
                           ))}
                         </ul>
                       </div>
@@ -46,8 +46,8 @@ function DesktopMenuItems() {
                           <span>.www</span>
                         </div>
                         <div className={styles.domainsItem}>
-                          {item.children.domains.map((domainsItem) => (
-                            <div>
+                          {item.children.domains.map((domainsItem, index) => (
+                            <div key={index}>
                               <span>{domainsItem.domain}</span>
                               {domainsItem.price}
                             </div>
@@ -61,14 +61,20 @@ function DesktopMenuItems() {
               </>
             ) : (
               <>
-                <span className={styles.itemTitle}>
-                  {item.title}
-                  {item.children && (
-                    <span className={styles.arrowIcon}>
-                      <FaChevronDown />
+                {item.children ? (
+                  <>
+                    <span className={styles.itemTitle}>
+                      {item.title}
+                      <span className={styles.arrowIcon}>
+                        <FaChevronDown />
+                      </span>
                     </span>
-                  )}
-                </span>
+                  </>
+                ) : (
+                  <a href="#" className={styles.itemTitle}>
+                    {item.title}
+                  </a>
+                )}
                 {item.children && (
                   <ul className={styles.itemList}>
                     {item.children.map((child) => (
