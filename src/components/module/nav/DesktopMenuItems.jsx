@@ -31,7 +31,7 @@ function DesktopMenuItems() {
                         </p>
                         <ul>
                           {item.children.link.map((linkItem) => (
-                            <li>{linkItem}</li>
+                            <li>{linkItem.title}</li>
                           ))}
                         </ul>
                       </div>

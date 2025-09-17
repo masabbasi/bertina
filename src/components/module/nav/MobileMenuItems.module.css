@@ -1,0 +1,141 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 12.4rem);
+  background-color: #ffffff;
+  position: fixed;
+  top: 12.4rem;
+  right: 0;
+  left: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 3;
+  padding: 1rem;
+}
+
+.open {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.loginAndRegister {
+  width: 100%;
+  background-color: #e5e7f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.login {
+  padding: 0.7rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #505faa;
+  font-size: 1.3rem;
+}
+
+.register {
+  padding: 0.7rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #505faa;
+  border-radius: 0.8rem;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.login svg,
+.register svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.break {
+  margin: 2rem 0;
+  display: block;
+  height: 0.1rem;
+  border: 0;
+  border-top: 1px solid #e5e7f2;
+}
+
+.categoriesLink {
+}
+
+.categoriesLink a {
+  margin: 0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  font-family: var(--main-font);
+	font-weight: bold;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+
+.call {
+  font-size: 1.1rem;
+  font-family: var(--main-fontBold);
+  color: #555faa;
+  text-align: center;
+}
+
+.orange {
+  color: #f58b21;
+  margin: 0 0.2rem;
+}
+
+.gray {
+  color: #c4bfdd;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 0.5rem;
+}
+
+.social svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #b3b9cf;
+}
+
+/* Responsive - Mobile First */
+/* Small Device Size */
+@media screen and (min-width: 450px) {
+}
+
+/* Mobile Size */
+@media screen and (min-width: 576px) {
+  .container {
+    width: 100%;
+    height: calc(100vh - 12rem);
+  }
+}
+
+/* Tablet Size */
+@media screen and (min-width: 768px) {
+}
+
+/* Laptop Size */
+@media screen and (min-width: 992px) {
+}

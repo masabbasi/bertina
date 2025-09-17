@@ -48,6 +48,7 @@ body {
   height: 100vh;
   font-family: var(--main-font);
   background-color: var(--background-color);
+  overflow-x: hidden;
 }
 
 /* End Body & Container */

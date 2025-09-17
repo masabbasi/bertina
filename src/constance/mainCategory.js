@@ -51,7 +51,12 @@ const mainCategory = [
         { domain: "ws.", price: "1.165.000" },
         { domain: "com.", price: "1.266.000" },
       ],
-      link: ["خرید دامنه", "خرید دامنه com", "خرید دامنه ir", "خرید دامنه ai"],
+      link: [
+        { title: "خرید دامنه", icon: "images/category/host/server-svgrepo-com.svg" },
+        { title: "خرید دامنه com", icon: "images/category/host/server-svgrepo-com.svg" },
+        { title: "خرید دامنه ir", icon: "images/category/host/server-svgrepo-com.svg" },
+        { title: "خرید دامنه ai", icon: "images/category/host/server-svgrepo-com.svg" },
+      ],
     },
   },
   {
