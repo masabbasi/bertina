@@ -32,7 +32,7 @@ function MobileFooter() {
         ))}
       </div>
       <div className={styles.img}>
-        <img src="/images/footer/slogan.svg" alt="دعوت برتینا" />
+        <img src="images/footer/slogan.svg" alt="دعوت برتینا" />
       </div>
       <Social />
       <About />

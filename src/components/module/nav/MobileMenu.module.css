@@ -17,6 +17,7 @@
 .hamburgerMenuIcon svg {
   width: 3.2rem;
   height: 3.2rem;
+  transition: all 0.3s ease-in;
 }
 
 .logo {

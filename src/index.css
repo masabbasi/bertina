@@ -49,6 +49,7 @@ body {
   font-family: var(--main-font);
   background-color: var(--background-color);
   overflow-x: hidden;
+  user-select: none;
 }
 
 /* End Body & Container */

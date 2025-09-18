@@ -1,6 +1,7 @@
 import { TbMenuDeep } from "react-icons/tb";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineAccountCircle } from "react-icons/md";
+import { IoMdClose } from "react-icons/io";
 
 import styles from "components/module/nav/MobileMenu.module.css";
 import { useState } from "react";
@@ -15,7 +16,7 @@ function MobileMenu() {
   return (
     <div className={styles.container}>
       <div className={styles.hamburgerMenuIcon} onClick={hamburgerMenuHandler}>
-        <TbMenuDeep />
+        {menuStatus ? <IoMdClose /> : <TbMenuDeep />}
       </div>
       <div className={styles.logo}>
         <img src="images/header/logo.png" alt="bertina logo" />
