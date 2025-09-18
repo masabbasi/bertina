@@ -152,12 +152,20 @@
 .price {
   width: 100%;
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   white-space: nowrap;
   padding: 0.7rem;
   gap: 1rem;
-  -ms-overflow-style: none;
+  -ms-overflow-style: hidden;
   scrollbar-width: none;
+  cursor: grab;
+  scroll-behavior: smooth;
+}
+
+.price:hover,
+.price:active,
+.price:focus {
+  overflow-x: scroll;
 }
 
 .price::-webkit-scrollbar {
@@ -303,15 +311,15 @@
   }
 
   .SearchElement button {
-    width: 2.8rem;
-    height: 2.8rem;
-    padding: 1.5rem;
-    border-radius: 1rem;
-  }
-  .SearchElement button {
     padding: 1rem;
     width: 5rem;
     height: 5rem;
+    border-radius: 1rem;
+  }
+
+  .SearchElement button:hover {
+    cursor: pointer;
+		background-color: orange;
   }
   .SearchElement input {
     padding: 1.5rem;

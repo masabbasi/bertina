@@ -71,12 +71,8 @@ body {
 }
 
 /* Desktop Size */
-/* @media screen and (min-width: 1200px) {
-  #root {
-    width: 1200px;
-		margin: 0 auto;
-  }
-} */
+@media screen and (min-width: 1200px) {
+}
 
 @media screen and (min-width: 1400px) {
   #root {

@@ -2,19 +2,31 @@ import styles from "components/module/nav/DesktopMenuItems.module.css";
 import { mainCategory } from "../../../constance/mainCategory";
 import { FaChevronDown } from "react-icons/fa6";
 import { CiSearch } from "react-icons/ci";
+import { useState } from "react";
 
 function DesktopMenuItems() {
+  const [hoveredItem, setHoveredItem] = useState(null);
+
   return (
     <div>
       <ul className={styles.allItems}>
         {mainCategory.map((item) => (
-          <li key={item.title} className={styles.item}>
+          <li
+            key={item.title}
+            className={styles.item}
+            onMouseEnter={() => setHoveredItem(item.title)}
+            onMouseLeave={() => setHoveredItem(null)}
+          >
             {item.title === "دامنه" ? (
               <>
                 <span className={styles.itemTitle}>
                   {item.title}
                   {item.children && (
-                    <span className={styles.arrowIcon}>
+                    <span
+                      className={`${styles.arrowIcon} ${
+                        hoveredItem === item.title ? styles.rotated : ""
+                      }`}
+                    >
                       <FaChevronDown />
                     </span>
                   )}
@@ -65,7 +77,11 @@ function DesktopMenuItems() {
                   <>
                     <span className={styles.itemTitle}>
                       {item.title}
-                      <span className={styles.arrowIcon}>
+                      <span
+                        className={`${styles.arrowIcon} ${
+                          hoveredItem === item.title ? styles.rotated : ""
+                        }`}
+                      >
                         <FaChevronDown />
                       </span>
                     </span>
